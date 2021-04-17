@@ -1,0 +1,61 @@
+.navbar
+{
+    height: 5rem;
+    box-shadow: 0px 1px 8px #888888;
+    justify-content:left;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    background-color: white;
+}
+
+.icon
+{
+    text-align: left;
+    width: fit-content;
+}
+.logonews
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    margin: 0 auto;
+    padding-right: 7rem;
+}
+
+
+.imglogo
+{
+    width: 4.8rem;
+    height: 4.5rem;  
+}
+@media (max-width:459px) {
+    .logonews
+    {
+        padding-right:0;
+    }
+    
+}
+@media (max-width:347px) {
+
+    .logonews
+    {
+        width: fit-content;
+        height: fit-content;
+    }
+    .name
+    {
+        font-size: 6vw;
+    }
+}
+@media (max-width:257px) {
+    .logonews
+    {
+        width: 6rem;
+        height: 4rem;
+    }
+    
+}
+
